@@ -12,7 +12,7 @@ Now that you're familiar with the basics of ActiveRecord migrations and simple A
 
 You probably remember how to associate tables in a database using foreign keys. This challenge will build on that knowledge and extend it into the realm of the ActiveRecord ORM.
 
-Copy your code from the [ActiveRecord Student Schema](https://github.com/sea-lions-2014/db-drill-ar-student-schema-challenge) into the `ar_associations` directory in the source directory to work forward from that code. 
+Copy your code from the [ActiveRecord Student Schema](../../../db-drill-ar-student-schema-challenge) into the `ar_associations` directory in the source directory to work forward from that code. 
 
 ##Releases
 
