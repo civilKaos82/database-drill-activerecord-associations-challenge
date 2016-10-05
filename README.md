@@ -45,7 +45,7 @@ Write tests to ensure that your association is working correctly. For example, g
 
 The customer for whom you're building this system just changed her mind. It turns out that the system needs to support the notion that a student can have more than one teacher.
 
-Make the necessary changes to your models (along with any necessary migrations) to support this. [You might find a hint here.](http://socrates.devbootcamp.com/challenges/45)
+Make the necessary changes to your models (along with any necessary migrations) to support this.
  
 Write tests to ensure that your association is working correctly. For example, given a student, can you find her teachers? Can you find all students for a given teacher?
 
