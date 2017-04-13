@@ -1,12 +1,12 @@
 # Database Drill ActiveRecord Associations 
  
-##Learning Competencies 
+## Learning Competencies 
 
 * Use Active Record Migrations to create a database
 * Use Active Record Queries to query a database
 * Use Active Record to create Associations between database tables
 
-##Summary 
+## Summary 
 
 Now that you're familiar with the basics of ActiveRecord migrations and simple ActiveRecord models, it's time to learn about [ActiveRecord Associations](http://guides.rubyonrails.org/association_basics.html).
 
@@ -14,9 +14,9 @@ You probably remember how to associate tables in a database using foreign keys. 
 
 Copy your code from the [ActiveRecord Student Schema](../../../active-record-drill-model-a-student-challenge) into the `ar_associations` directory in the source directory to work forward from that code. 
 
-##Releases
+## Releases
 
-###Release 0 : Add a Teacher Model
+### Release 0 : Add a Teacher Model
 
 
 Create a `Teacher` model that extends `ActiveRecord::Base`. It should have attributes to store the teacher's name, email address, and phone number. Remember to keep things [i18n](http://en.wikipedia.org/wiki/Internationalization_and_localization)-[friendly](http://www.w3.org/International/questions/qa-personal-names)!
@@ -25,7 +25,7 @@ This model should be created in its own Ruby file and in the right folder. You'l
 
 Use sqlite to verify the table has been created.
 
-###Release 1 : Create some test data for Teachers
+### Release 1 : Create some test data for Teachers
 
 Without resorting to using SQL or SQLite, write some Ruby code that uses ActiveRecord commands to create some test data. Create 9 teachers, each with unique names and email addresses.
 
@@ -41,7 +41,7 @@ Once you've done that, write some code that will arbitrarily distribute the stud
   
 Write tests to ensure that your association is working correctly. For example, given a student, can you find a teacher? Can you find all of her students?
 
-###Release 2 : Uh-oh! The requirements have changed
+### Release 2 : Uh-oh! The requirements have changed
 
 The customer for whom you're building this system just changed her mind. It turns out that the system needs to support the notion that a student can have more than one teacher.
 
@@ -49,7 +49,7 @@ Make the necessary changes to your models (along with any necessary migrations) 
  
 Write tests to ensure that your association is working correctly. For example, given a student, can you find her teachers? Can you find all students for a given teacher?
 
-###Release 3 : DRY it up!  (Optional)
+### Release 3 : DRY it up!  (Optional)
 
 Does it annoy you that both tables (`students` and `teachers`) are storing `name`, `email`, and `phone` fields? That's good!
 
@@ -79,6 +79,6 @@ end
 
 <!-- ##Optimize Your Learning  -->
 
-##Resources
+## Resources
 
 * [ActiveRecord Associations](http://guides.rubyonrails.org/association_basics.html)
